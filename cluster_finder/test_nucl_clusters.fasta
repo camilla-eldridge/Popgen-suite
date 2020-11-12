@@ -1,7 +1,11 @@
-1_2
+1_4
 >3
 atgtgtactagctagatcagatcg
 >4
+atgtgtactagctagatcagatcg
+>7
+atgtgtactagctagatcagatcg
+>8
 atgtgtactagctagatcagatcg
 
 2_1
@@ -9,6 +13,12 @@ atgtgtactagctagatcagatcg
 atgtgtagaagctagatcagatcg
 
 3_1
+>5
+atgtgtagaaactagatcagatcg
+
+4_2
 >2
+atgtgtagtagctagatcagatcg
+>6
 atgtgtagtagctagatcagatcg
 
