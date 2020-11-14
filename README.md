@@ -12,14 +12,11 @@ Solution: Popgen-suite makes it easy to run basic population statistics, requiri
 
 
 
-## Tools
 
-
-**Allele and protein variant prediction from a population sample**
+## Allele and protein variant prediction.<br /> <br /> <br />
 
  
-
-### 1. Predicting Allele and Protein variants. <br /> <br /> <br />  
+ 1. Predicting Allele and Protein variants. <br /> <br /> <br />  
 
 `cluster_finder.py` clusters sequences based on 100% identity and can be used on any kind of sequence or string. <br /> <br /> <br />
 
@@ -43,7 +40,7 @@ on the translated sequences will predict the protein variants and their counts.<
 
 
 
-### 2. Plotting Relative Allele and Protein variant frequencies in multiple populations (e.g different host populations or geographic regions).
+2. Plotting Relative Allele and Protein variant frequencies in multiple populations (e.g different host populations or geographic regions).
 
 After running `cluster_finder.py` on both protein and nucleotide data sets, the output from both predictions can be merged.<br /> <br /> <br />
 Running `Relative_geno_pheno_plots.R` will sort this output so that a comparative plot of Relative genotypic and phenotypic frequencies is produced.<br /> <br /> <br />
