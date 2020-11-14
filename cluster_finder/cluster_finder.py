@@ -40,14 +40,18 @@ out_table = "cluster" + "," + "n_in_cluster" + "," + "cluster_rep" + "\n"
 
 
 cluster_members = "Cluster ID" + "," + "Individual" + "\n"
+reps = []
 
-""" Get all cluster members """
+""" Get all cluster members and cluster reps"""
 for cluster in all_alleles:
+    
+    reps.append(cluster[1])
     
     all_cluster_ids=""
     each_cluster_ids = ""
-
+    
     clustr_rep = "".join(cluster[1]).split()[0].replace(">", "")
+   
     z = ("".join(cluster[1:]))   
     x=" ".join(z.split()[0::2]).replace(">", "")
     
@@ -61,7 +65,7 @@ for cluster in all_alleles:
 
     """ Leave out first entry of cluster - as it was ref """
     all_clusters = all_clusters + str(n) + "_" +  str(z.count(">")) + "\n" + z + "\n"
-    
+        
     
 
 result_table=open(iD + "_cluster_info.txt", "w")
@@ -72,4 +76,13 @@ cluster_member_out.write(cluster_members)
 
 out=open(iD + "_clusters" + ".fasta", "w")
 out.write(all_clusters) 
+
+
+cluster_reps_out=open(iD + "_cluster_reps.fasta", "w")
+cluster_reps_out.write("".join(reps))
+
+
+
+
+
 
