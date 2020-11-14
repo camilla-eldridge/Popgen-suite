@@ -47,6 +47,8 @@ Running `Relative_geno_pheno_plots.R` will sort this output so that a comparativ
     
     
 <br /> <br /> <br />
+<br /> <br /> <br />
+<br /> <br /> <br />
 
 
 ![alt text](Example/Relative_phen_geno_plot.png)
@@ -54,7 +56,7 @@ Running `Relative_geno_pheno_plots.R` will sort this output so that a comparativ
 
 <br /> <br /> <br />
 
-To test for any evidence in population structure observed in the final plot an AMOVA can be calculated using pegas (see Population statistic summary tables).<br /> <br /> <br />
+*To test for any evidence in population structure observed in the final plot an AMOVA can be calculated using pegas (see Population statistic summary tables).<br /> <br /> <br />
 
 
 <br /> <br /> <br />
