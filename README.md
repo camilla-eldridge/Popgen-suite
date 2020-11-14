@@ -11,8 +11,6 @@ Solution: Popgen-suite makes it easy to run basic population statistics, requiri
 <br /> <br /> <br />
 
 
-
-
 ## Allele and protein variant prediction.<br /> <br /> <br />
 
  
@@ -37,7 +35,7 @@ on the translated sequences will predict the protein variants and their counts.<
        
        
 <br /> <br /> <br />
-
+<br /> <br /> <br />
 
 
 2. Plotting Relative Allele and Protein variant frequencies in multiple populations (e.g different host populations or geographic regions).
@@ -60,7 +58,7 @@ To test for any evidence in population structure observed in the final plot an A
 
 
 <br /> <br /> <br />
-
+<br /> <br /> <br />
 
 ## Automated prediction and Relative frequency plotting. 
 
@@ -76,6 +74,9 @@ Notes on usage:
 - Column names must be the same as shown in the test files (see group_info.csv). <br /> <br /> <br />
 - Relative frequencies and sorted allele and protein variation information for each individual in the dataset is always ouput as:<br /> <br /> <br />
 `group_allele_counts.csv`, `group_protein_counts.csv` and `Allele_and_protein_variants.csv` <br /> <br /> <br />
+
+<br /> <br /> <br />
+<br /> <br /> <br />
 
 
 ## Population statistic summary tables. 
