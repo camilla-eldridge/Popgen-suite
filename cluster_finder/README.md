@@ -1,4 +1,4 @@
-# Cluster finder  <br /> <br /> <br /> 
+# Cluster finder 
 
 * Given multi-fasta file, sorts sequences into identical groups (can be used to cluster any strings in fasta format by 100% id)
 
@@ -6,10 +6,10 @@
 
 
 
-         USAGE: allele_finder.py mf_file id
+         USAGE: cluster_finder.py mf_file id
 
 
-         Example: allele_finder.py test.fasta test
+         Example: cluster_finder.py test.fasta test
 
 
  <br /> <br /> <br /> 
