@@ -1,4 +1,4 @@
-# CLuster finder  <br /> <br /> <br /> 
+# Cluster finder  <br /> <br /> <br /> 
 
 * Given multi-fasta file, sorts sequences into identical groups (can be used to cluster any strings in fasta format by 100% id)
 
