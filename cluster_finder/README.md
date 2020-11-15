@@ -26,3 +26,7 @@ Table of cluster members, n in cluster and cluster representative id    <br /> <
          test_cluster_members.csv  
 
 Table of cluster ids per individual   <br /> <br /> <br /> 
+
+         test_cluster_reps.fasta
+         
+Cluster representative sequences, in order (cluster 1,2,3...)
