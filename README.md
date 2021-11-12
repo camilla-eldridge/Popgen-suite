@@ -4,9 +4,9 @@ A suite of scripts for basic population genetic analysis from fasta sequences th
 <br /> <br /> <br />
 
 
-Problem: Most software for population analyses requires the preparation of input files which can be laborious, particularly if you only want to run basic population analyses. In addition most popgen software cannot be implimented in automated pipelines. 
+Problem: Most software for population analyses requires the preparation of input files which can be laborious, particularly if you only want to run basic population analyses. In addition most popgen software cannot be easily implimented into automated pipelines. 
 
-Solution: Popgen-suite makes it easy to run basic population statistics, requiring a fasta file and a simple csv file to define population groups. Analyses can be carried out using separate scripts, enabling integration into automated pipelines.
+Solution: Popgen-suite makes it easy to run basic population statistics, requiring a fasta file and a csv file to define population groups. Analyses can be carried out using separate scripts, enabling integration into automated pipelines.
 
 <br /> <br /> <br />
 
