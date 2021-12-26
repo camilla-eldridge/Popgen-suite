@@ -86,6 +86,12 @@ Notes on usage:
 coming soon...
 <br /> <br /> <br />
 
+NB. add in :
+
+PhiST <- 1 - fit$varcoef/(fit$varcoef+fit$varcomp[2,1])
+PhiST
+
+
 ## Per site analyses of Tajima's D and Pi.
 
 coming soon...
