@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#author: camilla eldridge
+
 nuc_seq="$1"
 prot_seq="$2"
 id="$3"
