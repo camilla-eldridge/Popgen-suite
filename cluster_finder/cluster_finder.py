@@ -2,6 +2,11 @@
 
 """ *~~~~*~~~* ALLELE FINDER *~~~*~~~~* """
 
+"""
+@author: camilla eldridge
+"""
+
+
 import sys
 
 input_seq=sys.argv[1]      #"CD63_coding_merged_trimmed.fasta"    #sys.argv[1]        #"CD63_coding_merged_trimmed.fasta"
