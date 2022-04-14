@@ -56,29 +56,14 @@ Running `Relative_geno_pheno_plots.R` will sort this output so that a comparativ
 
 <br /> <br /> <br />
 
-*To test for any evidence in population structure observed in the final plot an AMOVA can be calculated using pegas (see Population statistic summary tables).<br /> <br /> <br />
+- To test for any evidence in population structure observed in the final plot an AMOVA can be run using pegas (note this is a one factor amova - host ~ genotype). 
+
+<br /> <br /> <br />
 
 
 <br /> <br /> <br />
 <br /> <br /> <br />
 
-## Automated prediction and Relative frequency plotting. 
-
-In `Relative_freq_plots.sh` steps 1 and 2 above are combined. 
-<br /> <br /> <br />
-
-
-     Example of usage: ./Relative_freq_plots.sh   test.fasta   test.translated.fasta   test   group_info.csv   Host
-<br /> <br /> <br />
-
-Notes on usage:
-<br /> <br /> <br />
-- Column names must be the same as shown in the test files (see group_info.csv). <br /> <br /> <br />
-- Relative frequencies and sorted allele and protein variation information for each individual in the dataset is always ouput as:<br /> <br /> <br />
-`group_allele_counts.csv`, `group_protein_counts.csv` and `Allele_and_protein_variants.csv` <br /> <br /> <br />
-
-<br /> <br /> <br />
-<br /> <br /> <br />
 
 
 ## Population frequency statistics
@@ -99,6 +84,26 @@ Notes on usage:
 coming soon...
 <br /> <br /> <br />
 
+
+
+
+## Automated prediction and Relative frequency plotting. 
+
+In `Relative_freq_plots.sh` steps 1 and 2 above are combined. 
+<br /> <br /> <br />
+
+
+     Example of usage: ./Relative_freq_plots.sh   test.fasta   test.translated.fasta   test   group_info.csv   Host
+<br /> <br /> <br />
+
+Notes on usage:
+<br /> <br /> <br />
+- Column names must be the same as shown in the test files (see group_info.csv). <br /> <br /> <br />
+- Relative frequencies and sorted allele and protein variation information for each individual in the dataset is always ouput as:<br /> <br /> <br />
+`group_allele_counts.csv`, `group_protein_counts.csv` and `Allele_and_protein_variants.csv` <br /> <br /> <br />
+
+<br /> <br /> <br />
+<br /> <br /> <br />
 
 
 
