@@ -51,7 +51,7 @@ Running `Relative_geno_pheno_plots.R` will sort this output so that a comparativ
 <br /> <br /> <br />
 
 
-![alt text](Example/Relative_phen_geno_plot.png)
+![alt text](Example/Relative_phen_geno_plot_amova.png)
 
 
 <br /> <br /> <br />
@@ -81,15 +81,17 @@ Notes on usage:
 <br /> <br /> <br />
 
 
-## Population statistic summary tables. 
+## Population frequency statistics
 
-coming soon...
+- Outputs R2, haplotype, SFS and pairwise mismatch distributions.
+
 <br /> <br /> <br />
 
-NB. add in :
+![alt text](Example/summary.jpg)
 
-PhiST <- 1 - fit$varcoef/(fit$varcoef+fit$varcomp[2,1])
-PhiST
+
+
+<br /> <br /> <br />
 
 
 ## Per site analyses of Tajima's D and Pi.
