@@ -23,6 +23,6 @@ cluster_finder.py "$nuc_seq" "$id"_nucl
 cluster_finder.py "$prot_seq" "$id"_prot
 
 # Run script to plot Relative frequencies
-./Relative_geno_pheno_plots.R "$id"_nucl_cluster_members.csv "$id"_prot_cluster_members.csv "$id"_nucl_cluster_info.txt "$id"_prot_cluster_info.txt "$groups" "$group_id"
+./Relative_geno_pheno_plots.R "$id"_nucl_cluster_members.csv "$id"_prot_cluster_members.csv "$id"_nucl_cluster_info.txt "$id"_prot_cluster_info.txt "$groups" "$group_id" "$nuc_seq"
 
 
