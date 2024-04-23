@@ -107,6 +107,23 @@ Notes on usage:
 
 
 
+## Citation  
+
+This work is still under development but if you use these scripts in your work please cite it as:
+
+Eldridge, C., Majoros, G., Cook, R.T., Kidd, D., Emery, A.M., Lawton, S.P. (2021). Popgen-suite [Software]. Unpublished.  
+
+
+If you use `Relative_geno_pheno_plots.R` please also cite:  
+
+Paradis E (2010). “pegas: an R package for population genetics with an integrated–modular approach.” Bioinformatics, 26, 419-420. doi:10.1093/bioinformatics/btp696.  
+
+Paradis E, Schliep K (2019). “ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R.” Bioinformatics, 35, 526-528. doi:10.1093/bioinformatics/bty633.  
+
+
+
+
+
 <br /> <br /> <br />
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
