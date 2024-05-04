@@ -111,7 +111,7 @@ Notes on usage:
 
 This work is still under development but if you use these scripts in your work please cite it as:
 
-Eldridge, C., Majoros, G., Cook, R.T., Kidd, D., Emery, A.M., Lawton, S.P. (2021). Popgen-suite [Software]. Unpublished.  
+Eldridge, C.J.L, Majoros, G., Cook, R.T., Kidd, D., Emery, A.M., Lawton, S.P. (2021). Popgen-suite [Software]. Unpublished.  
 
 
 If you use `Relative_geno_pheno_plots.R` please also cite:  
