@@ -6,7 +6,6 @@ Problem: Preparation of input files for popgen analyses can be laborious, partic
 
 Solution: Popgen-suite makes it easy to run basic population statistics, requiring a fasta file and a csv file to define population groups. Analyses can be carried out using separate scripts, enabling integration into automated pipelines.  
 
-<br /> <br /> <br />
 
 ## Allele and protein variant prediction.  
 
@@ -35,7 +34,7 @@ To test for any evidence in population structure observed in the final plot an A
 
 ## Population frequency statistics
 
-- Outputs R2, haplotype, SFS and pairwise mismatch distributions.
+Running `Relative_geno_pheno_plots.R` also produces R2, haplotype, SFS and pairwise mismatch distribution plots.  
 
 ### SFS 
 Folded site frequency spectrum analysis (SFS) summarises the number of haplotypes segregating at different frequencies in a population. SFS plots compare minor allele frequencies (the frequency of the second most frequent allele for a given mutation) to the number of mutations. Under neutrality there is expected to be a range of haplotype frequencies, where constant effective population size is assumed. <br /> <br /> <br />
