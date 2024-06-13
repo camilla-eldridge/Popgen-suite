@@ -27,10 +27,10 @@ Running `Relative_geno_pheno_plots.R` will sort this output so that a comparativ
   
 To test for any evidence in population structure observed in the final plot an AMOVA can be run using pegas (note this is a one factor amova - host ~ genotype).    
   <br /> <br /> <br />
-   
 
-![alt text](Example/Relative_phen_geno_plot_amova.png)  
-
+<div align="center">
+<img src="Example/Relative_phen_geno_plot_amova.png" alt="alt text" width="800" height="700"/>
+</div>
 
 ## Population frequency statistics
 
@@ -48,8 +48,9 @@ The mismatch distribution represents the frequency of the number of nucleotide s
 ### Haplotype diversity and nucleotide diversity 
 the comparison of these values can indicate population demographic changes for example, if haplotype diversity is higher than nucleotide diversity in a population this can be indicative of a population expansion event after a population has experienced a bottleneck
 
-![alt text](Example/summary.jpg)
-
+<div align="center">
+       <img src="Example/summary.jpg" alt="alt text"/>
+</div>
 
 <br /> <br /> <br />
 
