@@ -1,6 +1,6 @@
 # Popgen suite
 
-A suite of scripts for basic population genetic analysis from fasta sequences that can be implemented in analysis pipelines. Developed during my PhD at Kingston University.  
+A suite of scripts for basic population genetic analysis from fasta sequences that can be implemented in analysis pipelines. 
 
 Problem: Preparation of input files for popgen analyses can be laborious, particularly if you only want to run basic analyses, and most popgen software cannot be easily implimented into automated pipelines. 
 
